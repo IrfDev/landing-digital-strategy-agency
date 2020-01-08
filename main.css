@@ -1,0 +1,341 @@
+/* General */
+
+*,
+body {
+    font-family: oswald;
+}
+
+p {
+    font-family: arial;
+}
+
+.container-fluid {
+    background-color: #F4F4F4;
+}
+
+.img-fluid:nth-of-type(1) {
+    box-shadow: 70px 100px 200px rgba(0, 0, 0, 0.15);
+    border-radius: 11px 11px 0px 0px;
+}
+
+
+/* Navigation bar */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 31px;
+    padding-right: 2%;
+}
+
+.ham-menu {
+    height: 15px;
+    width: auto;
+    margin-top: 2%;
+}
+
+.logo {
+    max-width: 5%;
+}
+
+
+/* Hero header */
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-header h1 {
+    font-size: 80px;
+    color: #223CE1;
+    font-weight: 400!important;
+}
+
+.hero-header p {
+    font-size: 28px;
+    color: #222222;
+    margin-top: 5%;
+}
+
+.main-button {
+    margin-top: 10%;
+    background-color: #223CE1;
+    border-radius: 9px;
+    color: white;
+    font-weight: lighter;
+    border: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 6% 0px;
+    transition: .2s ease-out;
+}
+
+.main-button:hover {
+    font-size: 16px;
+    padding: 6.5% 5%;
+    transition: .2s ease;
+    box-shadow: 3px 5px 12px 0px #00000052;
+}
+
+.second-button:hover {
+    font-size: 16px;
+    transition: .2s ease-in;
+    border: 3px solid #223CE1;
+    box-shadow: 4px 3px 4px 0px inset #00000059;
+    letter-spacing: 2px;
+}
+
+.second-button {
+    margin-top: 10%;
+    color: #223CE1;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 5% 0px;
+    border: 2px solid #223CE1;
+    box-sizing: border-box;
+    border-radius: 9px;
+    transition: .2s linear;
+}
+
+.hero-header h4 {
+    margin-top: 10%;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.3;
+    transition: .2s step-end;
+}
+
+.hero-header h4:hover {
+    font-weight: bolder;
+    line-height: 28px;
+    color: #223CE1;
+    transition: .2s step-end;
+    opacity: 100;
+}
+
+
+/* Blurb Modules */
+
+.blurbs-content p:first-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 80px;
+    /* identical to box height, or 276% */
+    letter-spacing: 5px;
+    color: #222222;
+    opacity: 0.7;
+}
+
+.blurbs-content .row h3 {
+    font-weight: normal;
+    font-size: 88px;
+    line-height: 80px;
+    /* or 91% */
+    letter-spacing: -1px;
+    /* Azulisimo */
+    color: #223CE1;
+}
+
+.blurbs-content .row .card {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.37);
+    border: none;
+    transition: 0.2s ease-in;
+    border-radius: 34px;
+}
+
+.blurbs-content .row .card:hover {
+    box-shadow: 0px 4px 20px rgba(34, 60, 225, 0.56);
+    border: none;
+    border-radius: 34px;
+    transition: 0.2s ease-in;
+    content: "que trampa wey";
+}
+
+.blurbs-content .row .card img {
+    border-radius: 34px;
+}
+
+.blurbs-content .row .card-img-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0000008f 100%);
+    border-radius: 34px;
+}
+
+.card-title {
+    font-size: 3em;
+}
+
+.card-text {
+    font-size: 1.2em;
+}
+
+
+/* video-content */
+
+.video-content {
+    margin-bottom: -12rem;
+    background: linear-gradient(355deg, rgba(255, 255, 255, 1) 45%, rgba(244, 244, 244, 1) 45%);
+}
+
+.video-content .row h3 {
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    font-weight: lighter;
+    color: #223CE1;
+}
+
+.video-content .row p {
+    margin-top: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 34px;
+    /* or 103% */
+    /* Dark Grey */
+    color: #222222;
+    opacity: 0.7;
+}
+
+.video-content .row {
+    margin-left: 1%;
+}
+
+.video-content .row .col-md-6:nth-of-type(2) {
+    padding-right: 0px;
+    text-align: right;
+}
+
+.video-content .row .col-md-6:nth-of-type(1) {
+    margin-top: 7%;
+}
+
+.video-content .row .blur-image {
+    border-radius: 49px 0px 0px 0px;
+    overflow: hidden;
+    height: 77%;
+}
+
+.embed-responsive {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.41) 0%, rgba(0, 0, 0, 0) 100%), url(business-meeting-and-teamwork-by-business-people-6AWPQZE.jpg);
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.4);
+    border-radius: 21px;
+    position: absolute;
+    top: 119px;
+    right: 73px;
+    /* bottom: 0; */
+    width: 84%;
+    height: 53%;
+}
+
+
+/* Last CTA */
+
+.cta-wrapper h3 {
+    font-family: Oswald Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+    /* or 111% */
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+input {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 80px;
+    /* identical to box height, or 182% */
+    letter-spacing: -1px;
+    color: #f0f0f0f0;
+}
+
+.form-control {
+    display: block;
+    border: 2px solid #AAAAAA;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: aliceblue;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    background: #223CE1;
+    border-radius: 12px;
+    width: 100%;
+    font-family: Oswald Regular;
+    font-style: normal;
+    font-weight: lighter!important;
+    font-size: 2em;
+    line-height: 80px;
+    /* letter-spacing: -1px; */
+    color: #FFFFFF;
+}
+
+.cta-wrapper {
+    background-color: white;
+}
+
+@media (max-width: 576px) {
+    .container-fluid {
+        text-align: center;
+    }
+    .hero-header .main-button,
+    .second-button {
+        margin-top: 5%;
+    }
+    .hero-header h4 {
+        margin-top: 3%;
+    }
+    .blurbs-content h3 {
+        font-size: 56px!important;
+    }
+    .blurbs-content p:first-child {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 80px;
+        letter-spacing: 5px;
+        margin-bottom: 0px;
+        color: #222222;
+        opacity: 0.7;
+    }
+    .blurbs-content .row {
+        display: flex;
+        justify-content: center;
+    }
+    .blurbs-content .col-11:nth-last-of-type(2),
+    .col-11:nth-of-type(3) {
+        margin-top: 5%;
+    }
+}
